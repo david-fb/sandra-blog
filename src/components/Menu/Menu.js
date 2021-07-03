@@ -10,9 +10,9 @@ export default function Menu(){
                 <HamburguerMenu right>
                     {/* <a id="home" className="menu-item" href="/">Home</a>
                     <a id="about" className="menu-item" href="/soul-blog">Blog</a> */}
-                    <Link id="home" className="menu-item" to="/">Home</Link>
-                    <Link id="about" className="menu-item" to="/soul-blog">Soul Resumen</Link>
-                    <Link id="about" className="menu-item" to="/new-blog">New Resumen</Link>
+                    <Link id="home" className="menu-item" to="/sandra-blog">Home</Link>
+                    <Link id="about" className="menu-item" to="/sandra-blog/soul-blog">Soul Resumen</Link>
+                    <Link id="about" className="menu-item" to="/sandra-blog/new-blog">New Resumen</Link>
                 </HamburguerMenu>
             
         </section>

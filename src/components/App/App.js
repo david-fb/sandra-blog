@@ -10,9 +10,9 @@ function App(){
         <BrowserRouter>
             <Layout>
                 <Switch>
-                    <Route exact path='/' component={Home}/>
-                    <Route exact path='/soul-blog' component={SoulBlog}/>
-                    <Route exact path='/new-blog' component={NewBlog}/>
+                    <Route exact path='/sandra-blog' component={Home}/>
+                    <Route exact path='/sandra-blog/soul-blog' component={SoulBlog}/>
+                    <Route exact path='/sandra-blog/new-blog' component={NewBlog}/>
                 </Switch>
             </Layout>
         </BrowserRouter>
