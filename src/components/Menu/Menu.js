@@ -9,7 +9,7 @@ export default function Menu(){
             {/* <h1>Menu</h1> */}
                 <HamburguerMenu right>
                     <a id="home" className="menu-item" href="/">Home</a>
-                    <a id="about" className="menu-item" href="https://david-fb.github.io/sandra-blog/">Blog</a>
+                    <a id="about" className="menu-item" href="/soul-blog">Blog</a>
                     {/* <Link id="home" className="menu-item" to="/">Home</Link>
                     <Link id="about" className="menu-item" to="https://david-fb.github.io/sandra-blog/">About</Link> */}
                 </HamburguerMenu>
