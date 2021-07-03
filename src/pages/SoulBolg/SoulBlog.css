@@ -71,6 +71,19 @@
 }
 
 
+.reveal {
+    position: relative;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
 @media (max-width:950px) {
     .SoulBlog__container{
         font-size: 1.4rem;
@@ -97,8 +110,6 @@
         backdrop-filter: blur(6px);
         border: 1px solid rgba(95, 95, 95, 0.274);
         box-shadow: 0 0 15px 10px rgba(83, 83, 83, 0.26);
-    }
-    .SoulBlog__header__link{
     }
     .SoulBlog__header__text img{
         width: 60%;

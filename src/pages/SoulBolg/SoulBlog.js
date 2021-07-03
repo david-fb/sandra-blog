@@ -1,9 +1,37 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './SoulBlog.css'
 import fondoSoul from '../../images/fondoSoul.jpg'
 import logoSoul from '../../images/Logo_Soul.png'
 
+
+
+function reveal(){
+    let reveals = document.querySelectorAll('.reveal')
+
+    for (let i = 0; i < reveals.length; i++){
+        let windowHeight = window.innerHeight
+        let revealTop = reveals[i].getBoundingClientRect().top
+        let revealPoint = 150
+
+        if(revealTop < windowHeight - revealPoint){
+            reveals[i].classList.add('active')
+        }
+        // else{
+        //     reveals[i].classList.remove('active')
+        // }
+    }
+}
+
 export default function SoulBlog(){
+
+    useEffect(()=>{
+        window.addEventListener('scroll', reveal)
+
+        return() => {
+            window.removeEventListener('scroll', reveal)
+        }
+    }, [])
+
     return(
         <section className="SoulBlog__container">
                 <div className="SoulBlog__header">
@@ -62,6 +90,7 @@ export default function SoulBlog(){
                     </p>
                 </div>
             </div>
+
         </section>
     )
 }
