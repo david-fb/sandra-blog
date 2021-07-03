@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.42391934.chunk.css",
-    "main.js": "/repository-name/static/js/main.2979f667.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.2979f667.chunk.js.map",
-    "runtime-main.js": "/repository-name/static/js/runtime-main.045fad1e.js",
-    "runtime-main.js.map": "/repository-name/static/js/runtime-main.045fad1e.js.map",
-    "static/js/2.1d6e2f83.chunk.js": "/repository-name/static/js/2.1d6e2f83.chunk.js",
-    "static/js/2.1d6e2f83.chunk.js.map": "/repository-name/static/js/2.1d6e2f83.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "static/css/main.42391934.chunk.css.map": "/repository-name/static/css/main.42391934.chunk.css.map",
-    "static/js/2.1d6e2f83.chunk.js.LICENSE.txt": "/repository-name/static/js/2.1d6e2f83.chunk.js.LICENSE.txt",
-    "static/media/Logo_Soul.fad80e1e.png": "/repository-name/static/media/Logo_Soul.fad80e1e.png",
-    "static/media/fondoSoul.3d95c3f2.jpg": "/repository-name/static/media/fondoSoul.3d95c3f2.jpg",
-    "static/media/Home.css": "/repository-name/static/media/fondo_dibujos.9f344fc9.jpg",
-    "static/media/imgSandra.6cd1e7f5.jpg": "/repository-name/static/media/imgSandra.6cd1e7f5.jpg"
+    "main.css": "/sandra-blog/static/css/main.d7f4b277.chunk.css",
+    "main.js": "/sandra-blog/static/js/main.2979f667.chunk.js",
+    "main.js.map": "/sandra-blog/static/js/main.2979f667.chunk.js.map",
+    "runtime-main.js": "/sandra-blog/static/js/runtime-main.b34c4c13.js",
+    "runtime-main.js.map": "/sandra-blog/static/js/runtime-main.b34c4c13.js.map",
+    "static/js/2.1d6e2f83.chunk.js": "/sandra-blog/static/js/2.1d6e2f83.chunk.js",
+    "static/js/2.1d6e2f83.chunk.js.map": "/sandra-blog/static/js/2.1d6e2f83.chunk.js.map",
+    "index.html": "/sandra-blog/index.html",
+    "static/css/main.d7f4b277.chunk.css.map": "/sandra-blog/static/css/main.d7f4b277.chunk.css.map",
+    "static/js/2.1d6e2f83.chunk.js.LICENSE.txt": "/sandra-blog/static/js/2.1d6e2f83.chunk.js.LICENSE.txt",
+    "static/media/Logo_Soul.fad80e1e.png": "/sandra-blog/static/media/Logo_Soul.fad80e1e.png",
+    "static/media/fondoSoul.3d95c3f2.jpg": "/sandra-blog/static/media/fondoSoul.3d95c3f2.jpg",
+    "static/media/Home.css": "/sandra-blog/static/media/fondo_dibujos.9f344fc9.jpg",
+    "static/media/imgSandra.6cd1e7f5.jpg": "/sandra-blog/static/media/imgSandra.6cd1e7f5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.045fad1e.js",
+    "static/js/runtime-main.b34c4c13.js",
     "static/js/2.1d6e2f83.chunk.js",
-    "static/css/main.42391934.chunk.css",
+    "static/css/main.d7f4b277.chunk.css",
     "static/js/main.2979f667.chunk.js"
   ]
 }
