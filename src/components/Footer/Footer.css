@@ -1,0 +1,15 @@
+.Footer__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0.2em;
+    height: 5vh;
+    box-shadow: 0 0 .2em #fea01c;
+}
+
+.Footer__container a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    margin-right: .2em;
+}
