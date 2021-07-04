@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/sandra-blog/static/css/main.cc21b6aa.chunk.css",
-    "main.js": "/sandra-blog/static/js/main.1bf0df13.chunk.js",
-    "main.js.map": "/sandra-blog/static/js/main.1bf0df13.chunk.js.map",
+    "main.css": "/sandra-blog/static/css/main.86a23c46.chunk.css",
+    "main.js": "/sandra-blog/static/js/main.8a3c3b1c.chunk.js",
+    "main.js.map": "/sandra-blog/static/js/main.8a3c3b1c.chunk.js.map",
     "runtime-main.js": "/sandra-blog/static/js/runtime-main.b34c4c13.js",
     "runtime-main.js.map": "/sandra-blog/static/js/runtime-main.b34c4c13.js.map",
     "static/js/2.278f1244.chunk.js": "/sandra-blog/static/js/2.278f1244.chunk.js",
     "static/js/2.278f1244.chunk.js.map": "/sandra-blog/static/js/2.278f1244.chunk.js.map",
     "index.html": "/sandra-blog/index.html",
-    "static/css/main.cc21b6aa.chunk.css.map": "/sandra-blog/static/css/main.cc21b6aa.chunk.css.map",
+    "static/css/main.86a23c46.chunk.css.map": "/sandra-blog/static/css/main.86a23c46.chunk.css.map",
     "static/js/2.278f1244.chunk.js.LICENSE.txt": "/sandra-blog/static/js/2.278f1244.chunk.js.LICENSE.txt",
     "static/media/Logo_Soul.fad80e1e.png": "/sandra-blog/static/media/Logo_Soul.fad80e1e.png",
     "static/media/fondoSoul.3d95c3f2.jpg": "/sandra-blog/static/media/fondoSoul.3d95c3f2.jpg",
     "static/media/Home.css": "/sandra-blog/static/media/fondo_dibujos.9f344fc9.jpg",
+    "static/media/NewBlog.css": "/sandra-blog/static/media/verticalImg.2910f3c5.jpg",
     "static/media/imgSandra.6cd1e7f5.jpg": "/sandra-blog/static/media/imgSandra.6cd1e7f5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b34c4c13.js",
     "static/js/2.278f1244.chunk.js",
-    "static/css/main.cc21b6aa.chunk.css",
-    "static/js/main.1bf0df13.chunk.js"
+    "static/css/main.86a23c46.chunk.css",
+    "static/js/main.8a3c3b1c.chunk.js"
   ]
 }
