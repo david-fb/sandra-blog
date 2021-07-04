@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sandra-blog/static/css/main.66a04d93.chunk.css",
-    "main.js": "/sandra-blog/static/js/main.d0b83a80.chunk.js",
-    "main.js.map": "/sandra-blog/static/js/main.d0b83a80.chunk.js.map",
+    "main.js": "/sandra-blog/static/js/main.04d61e57.chunk.js",
+    "main.js.map": "/sandra-blog/static/js/main.04d61e57.chunk.js.map",
     "runtime-main.js": "/sandra-blog/static/js/runtime-main.b34c4c13.js",
     "runtime-main.js.map": "/sandra-blog/static/js/runtime-main.b34c4c13.js.map",
     "static/js/2.278f1244.chunk.js": "/sandra-blog/static/js/2.278f1244.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.b34c4c13.js",
     "static/js/2.278f1244.chunk.js",
     "static/css/main.66a04d93.chunk.css",
-    "static/js/main.d0b83a80.chunk.js"
+    "static/js/main.04d61e57.chunk.js"
   ]
 }
