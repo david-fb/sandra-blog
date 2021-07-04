@@ -1,9 +1,10 @@
 import React from 'react'
-import './NewBlog.css'
+import './HablemosSoul.css'
 
-export default function NewBlog(){
+export default function HablemosSoul(){
     return(
         <div className="NewBlog__container">
+          <h1>Hablemos de Soul</h1>
           <div className="NewBlog__paragraphs">
             <p>
             Soul es un filme que realmente vale la pena ver, es sencillamente espectacular, es una película que, al ser comparada con Coco, da un mensaje de la paradoja de lo que es la vida, es decir, el Gran Antes y el Gran Después da a entender la puerta hacia nuevas dimensiones, el momento en que se llega a la Tierra (el nacimiento) y el momento en que se parte (la muerte). 
@@ -26,9 +27,12 @@ export default function NewBlog(){
             <p>
             Como muchas de las otras películas de Pixar, Soul tiene grandes combinaciones de humor, corazón, drama y encanto. Es ilustrativo los momentos divertidos y emocionales que hace reflexionar esta película.
             </p>
-            <p>
-            Soul capta un poderoso mensaje a lo que siempre nos dedicamos cada día a motivarnos a hacer cosas grandes.
-            </p>
+            
+          </div>
+          <div className="NewBlog__side">
+              <div className="NewBlog__side-image">
+
+              </div>
           </div>
         </div>
     )

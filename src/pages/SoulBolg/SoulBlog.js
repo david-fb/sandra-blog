@@ -22,6 +22,11 @@ function reveal(){
     }
 }
 
+function scrollToBlog(){
+        const anchor = document.querySelector('#blog-section')
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
 export default function SoulBlog(){
 
     useEffect(()=>{
@@ -43,10 +48,10 @@ export default function SoulBlog(){
                         <p>
                         Es una pel&iacute;cula presentada por Disney que trata de aprovechar 
                         los momentos de la vida, habla de la muerte y la chispa para 
-                        aferrarse a la vida, es una producci&oacute;n de Pixar Animation Studios, 
+                        aferrarse a la existencia, es una producci&oacute;n de Pixar Animation Studios, 
                         es la historia de Joe, un profesor de m&uacute;sica.
                         </p>    
-                            <a href="#blog-section" className="SoulBlog__header__link">Leer más</a>
+                            <button onClick={scrollToBlog} className="SoulBlog__header__link" type="button">Leer más</button>
                     </div>
                 </div>
 
@@ -56,13 +61,13 @@ export default function SoulBlog(){
                     Joe Gardner es un pianista de Jazz, que, pese a las pocas oportunidades de tocar con una 
                     gran banda, lo &uacute;nico que tiene para mantenerse en la m&uacute;sica es ser profesor de esta misma, pero 
                     para Joe no es una raz&oacute;n suficiente para dejar de soñar y alg&uacute;n d&iacute;a ser parte de una gran banda 
-                    de Jazz, pese que su madre no lo apoya, pues ella prefiere verlo en una carrera m&aacute;s seria y con 
+                    de Jazz, pese a que su madre no lo apoya, pues ella prefiere verlo en una carrera m&aacute;s seria y con 
                     mayor estabilidad.
                     </p>
                     <p className="reveal">
                     Joe recibe una inesperada llamada, la cual era una invitación para una audici&oacute;n, esta podr&iacute;a ser 
-                    la gran oportunidad de hacer parte del grupo musical de una gran musico. Joe se presenta a la prueba, 
-                    el cual es elegido y debe ir esa misma noche, debe tocar en un bar con la banda para que la musico vea
+                    la gran oportunidad de hacer parte del grupo musical de una gran m&uacute;sico. Joe se presenta a la prueba, 
+                    el cual es elegido y debe ir esa misma noche, debe tocar en un bar con la banda para que la m&uacote;sico vea
                     que tal lo acepta el p&uacute;blico, presentada la función, sale del bar muy feliz hablando por teléfono, 
                     iba muy emocionado, el cual no se percata, cae en una alcantarilla y muere, es aquí donde empieza 
                     su viaje entre la vida y la muerte.
@@ -78,7 +83,7 @@ export default function SoulBlog(){
                     </p>
                     <p className="reveal">
                     Emprenden un gran viaje de aventuras Joe y 22, ya que, si 22 encuentra su chispa completaría el pase a la Tierra, 
-                    pero como no lo quiere, Joe tomaría ese pase para el volver el a la vida. Conocen a los místicos, quienes ayudan a 
+                    pero como no lo quiere, Joe tomaría ese pase para &eacute;l volver a la vida. Conocen a los místicos, quienes ayudan a 
                     las almas perdidas a volver a sus cuerpos, entre el afán de volver a su vida se lanza junto con 22 a su cuerpo que se 
                     encontraba en una clínica, pero 22 se queda en el cuerpo de Joe y este queda en el cuerpo de un gato.
                     </p>

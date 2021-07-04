@@ -61,12 +61,18 @@
 }
 .Home__text__blog-entries{
     width: 60%;
+    font-size: 1.5rem;
+}
+.Home__text__blog-entries p{
+    font-weight: 600;
 }
 .Home__blog-entries{
     margin-top: .5em;
     width: 40%;
     background: white;
     border: 1px solid #fea01c;
+    border-radius: .5em;
+    overflow: hidden;
 }
 .Home__blog-entries img{
     width: 100%;
@@ -83,5 +89,15 @@
     .Home__blog-entries{
         width: 12em;
         height: 12em;
+    }
+}
+@media (max-width: 650px){
+    .Home-wrapper{
+        flex-flow: column;
+        align-items: center;
+        padding: .7em 0;
+    }
+    .Home__container__img, .Home__container__text{
+        width: 90%;
     }
 }

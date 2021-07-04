@@ -1,21 +1,21 @@
 import React from 'react'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {Route, Switch, HashRouter} from 'react-router-dom'
 import Layout from '../Layout/Layout'
 import Home from '../../pages/Home/Home'
 import SoulBlog from '../../pages/SoulBolg/SoulBlog'
-import NewBlog from '../../pages/NewBlog/NewBlog'
+import HablemosSoul from '../../pages/HablemosSoul/HablemosSoul'
 
 function App(){
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Layout>
                 <Switch>
-                    <Route exact path='/sandra-blog' component={Home}/>
-                    <Route exact path='/sandra-blog/soul-blog' component={SoulBlog}/>
-                    <Route exact path='/sandra-blog/new-blog' component={NewBlog}/>
+                    <Route exact path='/' component={Home}/>
+                    <Route exact path='/soul-blog' component={SoulBlog}/>
+                    <Route exact path='/hablemos-soul' component={HablemosSoul}/>
                 </Switch>
             </Layout>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

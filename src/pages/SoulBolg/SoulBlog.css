@@ -22,6 +22,7 @@
     align-items: center;
 }
 .SoulBlog__header__link{
+    font-size: 1em;
     margin-top: 2em;
     min-width: fit-content;
     padding: 2px 15px;
